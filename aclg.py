@@ -4,7 +4,7 @@ import xlsxwriter
 workbook = xlsxwriter.Workbook('report.xlsx')
 worksheet = workbook.add_worksheet()
 
-path = "\\\\192.168.0.84\\Basic 1\\Basic 1"
+path = "path"
 
 All_perms = {
     1: "ACCESS_READ",  # 0x00000001
